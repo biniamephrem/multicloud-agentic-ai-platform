@@ -1,0 +1,8 @@
+location        = "eastus2"
+prefix          = "agentic-ai"
+environment     = "dev"
+# Build/push your image first, then set the immutable tag here.
+container_image = "YOUR_ACR.azurecr.io/multicloud-agentic-ai:1.0.0"
+# Model availability varies by region/subscription. Set deploy_model=true only after confirming availability.
+deploy_model      = false
+openai_deployment = "gpt-5-mini"

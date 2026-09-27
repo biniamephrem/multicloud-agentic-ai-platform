@@ -1,0 +1,1 @@
+{"title":"Agentic AI LLMOps","panels":[{"metric":"request_latency_ms"},{"metric":"token_usage"},{"metric":"rag_groundedness"},{"metric":"tool_success_rate"},{"metric":"guardrail_blocks"},{"metric":"estimated_cost_usd"}]}
